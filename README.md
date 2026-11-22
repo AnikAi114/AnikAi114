@@ -1,190 +1,136 @@
 
 # Anik Chandra Debnath
 
-**Artificial Intelligence Undergraduate | Machine Learning | Deep Learning | Computer Vision**
+**Artificial Intelligence Undergraduate | Machine Learning | Computer Vision | Explainable AI**
 
 Shanghai, China
 
 ## About Me
 
-I am an Artificial Intelligence undergraduate at **Shanghai University of Engineering Science (SUES)**, with an expected graduation date of July 2027.
+I am an undergraduate student pursuing a B.Sc. in Artificial Intelligence at Shanghai University of Engineering Science (SUES), with an expected graduation date of July 2027.
 
-My academic interests focus on Machine Learning, Deep Learning, Computer Vision, and Explainable Artificial Intelligence (XAI). I am particularly interested in developing efficient, interpretable, and practical AI systems that can address real-world challenges.
+My interests include computer vision, deep learning, explainable artificial intelligence, and practical machine learning applications.
 
-Through academic research and hands-on projects, I have gained experience in image classification, facial recognition, transfer learning, and deep learning-based applications.
+I enjoy developing machine learning models, conducting experiments, evaluating performance, and exploring how AI can address real-world problems.
 
-I use GitHub to document my technical projects, research experiments, and continuous development in artificial intelligence.
+This GitHub profile showcases my academic projects, technical experiments, and ongoing learning in artificial intelligence.
 
----
+## Featured Projects
+
+### 1. Plant Disease Detection with MobileNetV2 and Grad-CAM
+
+**Technologies:** Python, PyTorch, MobileNetV2, Grad-CAM
+
+A completed academic course project focused on lightweight plant disease classification using deep learning and explainable AI.
+
+- Classified plant leaf images across 15 classes.
+- Achieved 99.55% original test accuracy on 3,104 images.
+- Applied MobileNetV2 for image classification.
+- Used Grad-CAM to visualize model predictions.
+- Documented evaluation results and dataset limitations.
+
+**[View Repository](https://github.com/AnikAi114/plant-disease-detection-mobilenetv2-gradcam)**
+
+### 2. AgroFlow AI — Soil Moisture Forecasting
+
+**Technologies:** Python, Scikit-learn, SHAP, Streamlit
+
+A machine learning research prototype for forecasting soil moisture 24 hours ahead using agricultural IoT and weather data.
+
+- Developed a soil moisture forecasting workflow.
+- Compared Persistence, Ridge Regression, Random Forest, and Gradient Boosting.
+- Explored model interpretability.
+- Developed an interactive Streamlit dashboard.
+- Documented performance and evaluation limitations.
+
+**[View Repository](https://github.com/AnikAi114/agroflow-ai-soil-moisture-forecast)**
+
+### 3. Garbage Classification Using ResNet50
+
+**Technologies:** Python, PyTorch, ResNet50, Transfer Learning
+
+A computer vision project focused on multi-class waste image classification.
+
+- Applied transfer learning using ResNet50.
+- Achieved 97.03% test accuracy.
+- Evaluated model performance using classification metrics.
+- Included training code and result visualizations.
+
+**[View Repository](https://github.com/AnikAi114/garbage-classification-resnet50)**
+
+### 4. CIFAR-10 Image Classification — Custom CNN vs ResNet18
+
+**Technologies:** Python, PyTorch, CNN, ResNet18
+
+A comparative deep learning project evaluating a custom CNN and an ImageNet-pretrained ResNet18 on CIFAR-10.
+
+| Model | Test Accuracy |
+|---|---:|
+| Custom CNN | 74.15% |
+| ResNet18 | 91.96% |
+
+- Developed a custom CNN architecture.
+- Applied transfer learning with ResNet18.
+- Compared classification performance on the official CIFAR-10 test set.
+- Documented training and evaluation results.
+
+**[View Repository](https://github.com/AnikAi114/cifar10-image-classification-resnet18)**
+
+### 5. Smart Attendance System Using Face Recognition
+
+**Technologies:** Python, OpenCV, HOG, KNN
+
+A computer vision project exploring face recognition for attendance management.
+
+- Applied Histogram of Oriented Gradients for feature extraction.
+- Used K-Nearest Neighbors for face classification.
+- Developed a face-recognition-based attendance workflow.
+
+**[View Repository](https://github.com/AnikAi114/smart-attendance-face-recognition)**
+
+## Undergraduate Thesis
+
+**Topic:** Plant Disease Detection with Lightweight and Explainable Deep Learning
+
+**Status:** In Progress
+
+My undergraduate thesis explores lightweight deep learning architectures and explainable AI methods for plant disease recognition.
+
+This ongoing research builds on my previous academic experience in plant disease classification.
+
+The published MobileNetV2 project was completed as an academic course project. Its reported results are separate from my ongoing undergraduate thesis.
+
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Deep Learning | PyTorch, CNN, ResNet, MobileNetV2 |
+| Machine Learning | Scikit-learn, Classification, Regression |
+| Computer Vision | OpenCV, Image Classification |
+| Explainable AI | Grad-CAM, SHAP |
+| Data Analysis | NumPy, Pandas, Matplotlib |
+| Application Development | Streamlit |
+| Development Tools | Git, GitHub, Jupyter Notebook, PyCharm, VS Code |
 
 ## Education
 
-**Bachelor of Science in Artificial Intelligence**
+**B.Sc. in Artificial Intelligence**
 
 Shanghai University of Engineering Science (SUES)  
 Shanghai, China
 
-**Expected Graduation:** July 2027
-
----
-
-## Technical Skills
-
-| Category | Technologies and Concepts |
-|----------|---------------------------|
-| Programming | Python |
-| Machine Learning | Supervised Learning, Classification, Model Evaluation |
-| Deep Learning | CNN, ResNet18, ResNet50, Transfer Learning |
-| Computer Vision | OpenCV, Image Classification, Face Recognition |
-| Research Areas | Explainable AI, Lightweight Deep Learning, Model Interpretability |
-| Development Tools | PyCharm, Visual Studio Code (VS Code), Jupyter Notebook, Git, GitHub |
-
-
----
-
-## Undergraduate Thesis
-
-### Plant Disease Detection with Lightweight and Explainable Deep Learning
-
-**Research Areas:** Machine Learning, Deep Learning, Computer Vision, Explainable AI, Smart Agriculture
-
-My undergraduate thesis focuses on developing and investigating deep learning-based approaches for plant disease detection using leaf images.
-
-The research explores lightweight neural network architectures for efficient image classification and explainable AI techniques to improve the interpretability of model predictions.
-
-The broader objective is to investigate how efficient and interpretable AI models can contribute to practical plant disease recognition systems.
-
-**Status:** Undergraduate Thesis Research
-
----
-
-## Selected Projects
-
-### 1. Smart Attendance System Using Face Recognition
-
-**Technologies:** Python, OpenCV, CNN, Pre-trained ResNet-based Model
-
-Developed an automated attendance system using face detection and facial recognition techniques.
-
-**Key Highlights:**
-
-- Implemented face detection and recognition for automated attendance tracking.
-- Used a pre-trained ResNet-based model for facial feature extraction.
-- Matched extracted facial features to identify individuals and record attendance.
-- Explored an automated alternative to traditional manual attendance systems.
-
----
-
-### 2. High-Accuracy Image Classification on CIFAR-10 Using Residual Learning
-
-**Technologies:** Python, CNN, ResNet18, Transfer Learning
-
-Conducted an image classification experiment comparing a custom convolutional neural network with a pre-trained ResNet18 architecture using the CIFAR-10 dataset.
-
-**Key Highlights:**
-
-- Worked with the CIFAR-10 dataset containing 60,000 images across 10 categories.
-- Developed a custom CNN as the baseline model.
-- Applied transfer learning using a pre-trained ResNet18.
-- Compared classification performance between the baseline CNN and ResNet18.
-
-**Experimental Results:**
-
-| Model | Test Accuracy |
-|-------|---------------|
-| Custom CNN | 59.51% |
-| ResNet18 | 96.51% |
-
-The experiment demonstrated the performance improvement achieved by the ResNet18 approach under the evaluated configuration.
-
----
-
-### 3. Garbage Classification for Smart Recycling Using Deep Learning
-
-**Technologies:** Python, ResNet50, CNN, Transfer Learning
-
-Developed a deep learning-based image classification system to recognize different categories of garbage and explore AI applications in smart recycling.
-
-**Key Highlights:**
-
-- Used a Kaggle dataset containing 15,515 images across 12 garbage categories.
-- Applied transfer learning using a pre-trained ResNet50 model.
-- Used an 80/20 training and validation split.
-- Evaluated classification performance on the validation dataset.
-
-**Experimental Result:**
-
-- Validation Accuracy: **90.93%**
-
-The project explored how deep learning can support automated waste categorization for intelligent recycling applications.
-
----
-
-### 4. AgroFlow — AI Smart Irrigation Assistant
-
-**Research and Development Areas:** Artificial Intelligence, Smart Agriculture, Data-Driven Decision Support
-
-AgroFlow is an ongoing project exploring how agricultural data can support intelligent irrigation recommendations.
-
-**Project Objectives:**
-
-- Explore data-driven approaches to irrigation decision-making.
-- Investigate practical applications of AI in agricultural water management.
-- Develop an understandable interface for presenting irrigation recommendations.
-- Document model limitations and evaluation results transparently.
-
-**Status:** In Development
-
----
+Expected Graduation: July 2027
 
 ## Research Interests
 
-My primary research interests include:
-
-- **Machine Learning:** Supervised Learning, Predictive Modeling, and Model Evaluation
-- **Deep Learning:** Convolutional Neural Networks, Transfer Learning, and Residual Learning
-- **Computer Vision:** Image Classification, Visual Recognition, and Image Analysis
-- **Explainable Artificial Intelligence:** Model Interpretability and Explainable Predictions
-- **Efficient AI:** Lightweight Deep Learning Architectures and Model Optimization
-- **AI for Agriculture:** Plant Disease Detection and Intelligent Irrigation Systems
-
----
-
-## Current Focus
-
-- Conducting undergraduate thesis research on lightweight and explainable plant disease detection.
-- Strengthening my practical knowledge of machine learning and deep learning.
-- Developing reproducible AI projects with clear technical documentation.
-- Exploring research opportunities in computer vision, efficient deep learning, and explainable AI.
-- Preparing for graduate studies and professional opportunities in artificial intelligence.
-
----
-
-## Project Documentation
-
-I am organizing my academic and personal projects into separate GitHub repositories.
-
-Each repository will aim to include:
-
-- Project overview and objectives
-- Source code and implementation details
-- Dataset information and preprocessing methods
-- Model architecture and experimental setup
-- Evaluation results and limitations
-- Instructions for reproducing the experiments
-
-Project links will be added as repositories become available.
-
----
+- Computer Vision
+- Deep Learning and Transfer Learning
+- Lightweight Neural Networks
+- Explainable Artificial Intelligence
+- AI for Agriculture
+- Applied Machine Learning
 
 ## Contact
 
-**Location:** Shanghai, China
-
-**GitHub:** [github.com/AnikAi114](https://github.com/AnikAi114)
-
----
-
-*Focused on developing practical, efficient, and interpretable artificial intelligence solutions.*
-
-
+GitHub: [github.com/AnikAi114](https://github.com/AnikAi114)
